@@ -162,7 +162,7 @@ const App = () => {
               </p>
             </div>
 
-            <span className="bg-[#CFD6DC] -translate-y-4 w-[14%] md:min-w-40 h-1 md:w-[30%]"></span>
+            <span className="bg-[#CFD6DC] -translate-y-4 w-[14%] h-1 md:w-[27.5%]"></span>
 
             <div className="w-fit flex gap-2 flex-col items-center justify-center">
               <span className="size-6 md:size-8 rounded-full border-2 border-zinc-600 shrink-0 flex justify-center items-center"></span>
@@ -171,7 +171,7 @@ const App = () => {
               </p>
             </div>
 
-            <span className="bg-[#CFD6DC] -translate-y-4 w-[14%] md:min-w-40 h-1 md:w-[30%]"></span>
+            <span className="bg-[#CFD6DC] -translate-y-4 w-[14%] h-1 md:w-[27.5%]"></span>
 
             <div className="w-fit flex gap-2 flex-col items-center justify-center">
               <span className="size-6 md:size-8 rounded-full border-2 border-zinc-600 shrink-0 flex justify-center items-center"></span>
