@@ -152,19 +152,35 @@ const App = () => {
           Create your search profile in less than 5 minutes
         </p>
         <div className="w-[90%] md:w-[80%] md:absolute md:left-1/2 md:-translate-x-1/2 mx-auto rounded-xl pt-10 bg-white shadow-2xl shadow-zinc-700/25">
-          <div className="flex items-center justify-center gap-5 px-5 md:px-15">
-            <span className="size-8 rounded-full border-2 border-blue-500 shrink-0 flex justify-center items-center">
-              <span className="size-5.5 bg-blue-500 inline-block rounded-full"></span>
-            </span>
-            <span className="bg-[#CFD6DC] w-[50%] md:min-w-40 h-1 md:w-[30%]"></span>
+          <div className="flex items-center justify-center md:gap-5 px-5 md:px-15">
+            <div className="w-fit gap-2 flex flex-col items-center justify-center">
+              <span className="size-6 md:size-8 rounded-full border-2 border-blue-500 shrink-0 flex justify-center items-center">
+                <span className="size-4 md:size-5.5 bg-blue-500 inline-block rounded-full"></span>
+              </span>
+              <p className="text-blue-500 text-xs md:text-lg font-semibold text-center">
+                Location
+              </p>
+            </div>
 
-            <span className="size-8 rounded-full border-2 border-blue-500 shrink-0 flex justify-center items-center"></span>
+            <span className="bg-[#CFD6DC] -translate-y-4 w-[14%] md:min-w-40 h-1 md:w-[30%]"></span>
 
-            <span className="bg-[#CFD6DC] w-[50%] md:min-w-40 h-1 md:w-[30%]"></span>
+            <div className="w-fit flex gap-2 flex-col items-center justify-center">
+              <span className="size-6 md:size-8 rounded-full border-2 border-zinc-600 shrink-0 flex justify-center items-center"></span>
+              <p className="text-zinc-600 font-semibold text-center text-xs md:text-lg">
+                Requirements
+              </p>
+            </div>
 
-            <span className="size-8 rounded-full border-2 border-blue-500 shrink-0 flex justify-center items-center"></span>
+            <span className="bg-[#CFD6DC] -translate-y-4 w-[14%] md:min-w-40 h-1 md:w-[30%]"></span>
+
+            <div className="w-fit flex gap-2 flex-col items-center justify-center">
+              <span className="size-6 md:size-8 rounded-full border-2 border-zinc-600 shrink-0 flex justify-center items-center"></span>
+              <p className="text-zinc-600 font-semibold text-center text-xs md:text-lg">
+              Start Search
+              </p>
+            </div>
           </div>
-          <div className="flex flex-wrap items-center mt-15 gap-y-8 px-5 md:px-15">
+          <div className="flex flex-wrap items-center mt-10 md:mt-15 gap-y-8 px-5 md:px-15">
             <div className="w-full md:w-1/2">
               <form action="/">
                 <div className="w-full">
@@ -197,7 +213,7 @@ const App = () => {
         </div>
       </section>
 
-      <section className="mt-100 md:mt-90">
+      <section className="mt-90 md:mt-80">
         <div className="grid md:grid-cols-2 gap-10 items-center w-[90%] mx-auto">
           <div className="w-full">
             <img src="/images/mockup.webp" alt="mockup-mobile" />
@@ -295,9 +311,7 @@ const App = () => {
         <SectionHeading text="Frequently Asked Questions" />
         <Accordions />
         <div className="flex justify-center mt-8">
-          <Buttonoutline
-            text="See how it works & other FAQs"
-          />
+          <Buttonoutline text="See how it works & other FAQs" />
         </div>
       </section>
 
