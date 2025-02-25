@@ -37,29 +37,15 @@ const Footer = () => {
           >
             <h3 className="mb-3 font-semibold w-fit">{item.heading}</h3>
             <div className="grid gap-2">
-              {item.links.map((link) => {
-                if (typeof link === "string") {
-                  return (
-                    <a
-                      className="capitalize text-white hover:text-blue-400 transition duration-300"
-                      href={`/${link.split(" ").join("")}`}
-                      key={link}
-                    >
-                      {link}
-                    </a>
-                  );
-                }
-
-                return (
-                  <a
-                    className={`break-words text-white hover:text-blue-400 transition duration-300`}
-                    href={link.href}
-                    key={link.href}
-                  >
-                    {link.text}
-                  </a>
-                );
-              })}
+              {item.links.map((link) => (
+                <a
+                  className="capitalize text-white hover:text-blue-400 text-wrap block w-full break-words transition duration-300"
+                  href={link.split(" ").join("")}
+                  key={link}
+                >
+                  {link}
+                </a>
+              ))}
             </div>
           </div>
         ))}
