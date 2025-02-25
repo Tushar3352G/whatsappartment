@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import "remixicon/fonts/remixicon.css";
+
+:root {
+  --buttonColor: #3a76f0;
+  --bgColor: #28214b;
+}
+
+@theme {
+  --color-blue-500: #3a76f0;
+  --color-zinc-800: #101010;
+  --color-zinc-600:#757B8A;
+  --color-indigo-800:#28214B;
+}
+
+body {
+  font-family: Poppins;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Bold"), local("Poppins-Bold"),
+    url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+    url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Medium"), local("Poppins-Medium"),
+    url("../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
