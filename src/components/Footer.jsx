@@ -1,22 +1,16 @@
 const Footer = () => {
   return (
-    <footer
-      className={`bg-indigo-800 pt-10`}
-    >
+    <footer className={`bg-indigo-800 pt-10`}>
       <div className="w-[90%] mx-auto flex gap-5 flex-wrap justify-between">
         <div className="w-full md:w-fit">
-          <img
-            src="/images/logo.svg"
-            className="w-80 h-auto"
-            alt="logo"
-          />
+          <img src="/images/logo.svg" className="w-80 h-auto" alt="logo" />
 
           <p className="paragraph text-white mt-3 md:w-[30rem]">
-            WhatsApparement Professionals offers expert solutions in taxation, compliance,
-            legal services and business advisory. We simplify complex processes,
-            ensuring businesses stay compliant and thrive with confidence. Trust
-            Us for reliable, efficient and hassle-free professional services
-            tailored to your needs.
+            whatsappartment Professionals offers expert solutions in taxation,
+            compliance, legal services and business advisory. We simplify
+            complex processes, ensuring businesses stay compliant and thrive
+            with confidence. Trust Us for reliable, efficient and hassle-free
+            professional services tailored to your needs.
           </p>
         </div>
         {[
@@ -32,10 +26,7 @@ const Footer = () => {
           },
           {
             heading: "Contact Us",
-            links: [
-              "support@whatapartment.com",
-              "+61 7 3384 1822",
-            ],
+            links: ["support@whatapartment.com", "+61 7 3384 1822"],
           },
         ].map((item, key) => (
           <div
